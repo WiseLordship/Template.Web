@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Web", "Template.Web\Template.Web.csproj", "{6CA9A5E8-1422-4C8A-9F20-F89971DBAD1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Web", "Template.Web\Template.Web.csproj", "{130DE2F4-3A53-42DA-A317-B196A0E7DE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.React.Web", "Template.React.Web\Template.React.Web.csproj", "{EB3BDB9E-4059-40B7-9D13-41B6050D93CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CA9A5E8-1422-4C8A-9F20-F89971DBAD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CA9A5E8-1422-4C8A-9F20-F89971DBAD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CA9A5E8-1422-4C8A-9F20-F89971DBAD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CA9A5E8-1422-4C8A-9F20-F89971DBAD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130DE2F4-3A53-42DA-A317-B196A0E7DE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130DE2F4-3A53-42DA-A317-B196A0E7DE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130DE2F4-3A53-42DA-A317-B196A0E7DE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130DE2F4-3A53-42DA-A317-B196A0E7DE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3BDB9E-4059-40B7-9D13-41B6050D93CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3BDB9E-4059-40B7-9D13-41B6050D93CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3BDB9E-4059-40B7-9D13-41B6050D93CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3BDB9E-4059-40B7-9D13-41B6050D93CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

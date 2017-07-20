@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{130DE2F4-3A53-42DA-A317-B196A0E7DE40}</ProjectGuid>
+    <ProjectGuid>{EB3BDB9E-4059-40B7-9D13-41B6050D93CE}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Template.Web</RootNamespace>
-    <AssemblyName>Template.Web</AssemblyName>
+    <RootNamespace>Template.React.Web</RootNamespace>
+    <AssemblyName>Template.React.Web</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -253,7 +253,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\gulpfile.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap.css" />
@@ -343,8 +342,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\Header\" />
-    <Folder Include="App\Shared\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -378,9 +375,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51192</DevelopmentServerPort>
+          <DevelopmentServerPort>53167</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51192/</IISUrl>
+          <IISUrl>http://localhost:53167/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
