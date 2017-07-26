@@ -253,6 +253,17 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\src\components\about\about.page.js" />
+    <Content Include="App\src\components\app.js" />
+    <Content Include="App\src\components\home\home.page.js" />
+    <Content Include="App\src\components\routes.js" />
+    <Content Include="App\src\components\styles\styles.css" />
+    <Content Include="App\src\index.html" />
+    <Content Include="App\src\index.js" />
+    <Content Include="App\src\index.test.js" />
+    <Content Include="App\tools\srcServer.js" />
+    <Content Include="App\tools\startMessage.js" />
+    <Content Include="App\tools\testSetup.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap.css" />
@@ -291,6 +302,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="App\package.json" />
+    <Content Include="App\.babelrc" />
+    <Content Include="App\.editorconfig" />
+    <Content Include="App\.eslintrc" />
+    <Content Include="App\webpack.config.dev.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
